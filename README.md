@@ -77,7 +77,6 @@ e2 e4
 The chessboard is represented with columns labeled from a to h (from left to right) and rows numbered from 1 to 8 (from bottom to top):
 
 $$
-\[
 \begin{array}{c|c c c c c c c c}
   & a & b & c & d & e & f & g & h \\
 \hline
