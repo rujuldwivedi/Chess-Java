@@ -2,8 +2,6 @@
 
 Welcome to the **Chess Java** project! This is a terminal-based chess game implemented in Java, designed to provide an engaging and interactive experience for chess enthusiasts. The game incorporates classic chess rules, enabling players to challenge themselves against various pieces, including Knights, Bishops, Rooks, Queens, Kings, and Pawns.
 
-![Game Result](Game.png)
-
 ## Table of Contents
 
 - [Features](#features)
@@ -81,3 +79,5 @@ java -cp src Game
 Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request.
 
 Thank you for checking out **Chess Java**! Enjoy playing and feel free to explore the code.
+
+![Game Result](Game.png)
