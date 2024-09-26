@@ -1,6 +1,6 @@
 # Chess Java
 
-Welcome to the **Chess Java** project! This is a terminal-based chess game implemented in Java, designed to provide an engaging and interactive experience for chess enthusiasts. The game incorporates classic chess rules, enabling players to challenge themselves against various pieces, including Knights, Bishops, Rooks, Queens, Kings, and Pawns.
+Welcome to the **Chess Java** project! This is a console-based chess game implemented in Java, designed to provide an engaging and interactive experience for chess enthusiasts. The game incorporates classic chess rules, enabling players to challenge themselves against various pieces, including Knights, Bishops, Rooks, Queens, Kings, and Pawns.
 
 ## Table of Contents
 
@@ -76,23 +76,27 @@ e2 e4
 
 The chessboard is represented with columns labeled from a to h (from left to right) and rows numbered from 1 to 8 (from bottom to top):
 
-  a  b  c  d  e  f  g  h
-8 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 8
-7 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 7
-6 .  .  .  .  .  .  .  . 6
-5 .  .  .  .  .  .  .  . 5
-4 .  .  .  .  .  .  .  . 4
-3 .  .  .  .  .  .  .  . 3
-2 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 2
-1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 1
-  a  b  c  d  e  f  g  h
+\[
+\begin{array}{c|c c c c c c c c}
+  & a & b & c & d & e & f & g & h \\
+\hline
+8 & ♖ & ♘ & ♗ & ♕ & ♔ & ♗ & ♘ & ♖ \\
+7 & ♙ & ♙ & ♙ & ♙ & ♙ & ♙ & ♙ & ♙ \\
+6 & . & . & . & . & . & . & . & . \\
+5 & . & . & . & . & . & . & . & . \\
+4 & . & . & . & . & . & . & . & . \\
+3 & . & . & . & . & . & . & . & . \\
+2 & ♟ & ♟ & ♟ & ♟ & ♟ & ♟ & ♟ & ♟ \\
+1 & ♖ & ♘ & ♗ & ♕ & ♔ & ♗ & ♘ & ♖ \\
+  & a & b & c & d & e & f & g & h \\
+\end{array}
+
 
 
 ### Move Validation
 
 - If the input is invalid or does not correspond to a legal move, the game will notify you and ask for a new input.
 - Ensure that the start and end positions are valid according to chess rules for the piece being moved.
-- 
 
 ## Game Rules
 
