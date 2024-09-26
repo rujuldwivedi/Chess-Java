@@ -32,7 +32,7 @@ To run the Chess Java game, you'll need:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/chess-java.git
+   git clone https://github.com/rujuldwivedi/chess-java.git
    cd chess-java
    ```
 
@@ -57,6 +57,42 @@ java -cp src Game
 - The game starts with the standard chess setup.
 - Players take turns to move their pieces according to chess rules.
 - Invalid moves will be rejected, and players will be prompted to try again.
+
+### Input Format 
+
+To make a move, enter the starting and ending positions of the piece using standard chess notation. The format is as follows:
+
+```
+<start_position> <end_position>
+```
+
+For example, to move a pawn from e2 to e4, you would input:
+
+``` 
+e2 e4
+```
+
+### Coordinate System
+
+The chessboard is represented with columns labeled from a to h (from left to right) and rows numbered from 1 to 8 (from bottom to top):
+
+  a  b  c  d  e  f  g  h
+8 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 8
+7 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 7
+6 .  .  .  .  .  .  .  . 6
+5 .  .  .  .  .  .  .  . 5
+4 .  .  .  .  .  .  .  . 4
+3 .  .  .  .  .  .  .  . 3
+2 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 2
+1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 1
+  a  b  c  d  e  f  g  h
+
+
+### Move Validation
+
+- If the input is invalid or does not correspond to a legal move, the game will notify you and ask for a new input.
+- Ensure that the start and end positions are valid according to chess rules for the piece being moved.
+- 
 
 ## Game Rules
 
